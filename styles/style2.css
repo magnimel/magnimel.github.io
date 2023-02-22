@@ -1,0 +1,68 @@
+@import url(../styles.css);
+
+.middle {
+    margin: auto;
+    background-color: #f2f2f2;
+    padding: 30px;
+    display: grid;
+    overflow: auto;
+    line-height: 2;
+
+}
+
+a.download-button {
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    width: 300px;
+    color: RoyalBlue;
+}
+
+a.download-button:hover {
+    opacity: 0.5;
+}
+
+div.resume {
+    max-width: 100%;
+    height: auto;
+    font-size: 18px;
+}
+
+.section {
+
+    margin-top: 30px;
+    padding: 25px;
+    border: 3px solid #000;
+    background-color: #fff;
+
+}
+
+h3 {
+    font-weight: bold;
+}
+
+hr.header-line {
+    height: 5px;
+    margin: auto;
+    margin-top: 7px;
+    margin-bottom: 22px;
+    color: Black;
+
+}
+
+span.sub-header {
+    font-weight: bold;
+    float: left;
+    color: RoyalBlue;
+
+}
+
+span.date-space {
+    float: right;
+    opacity: 0.9;
+
+}
+
+
+
+

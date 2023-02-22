@@ -1,0 +1,31 @@
+@import url(../styles.css);
+
+.middle {
+
+}
+
+
+header {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 40px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #e60000;
+
+}
+
+.accordion {
+    padding: 40px;
+    line-height: 2;
+
+}
+
+button.accordion-button {
+    font-size: 20px;
+}
+
+.accordion-body {
+    padding: 40px;
+}
+

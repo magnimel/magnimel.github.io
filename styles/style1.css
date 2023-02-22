@@ -1,0 +1,129 @@
+@import url(../styles.css);
+
+.middle {
+    margin: auto;
+    background-color: #f2f2f2;
+    padding: 35px;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: auto;
+    gap: 5px;
+}
+
+.card-id {
+    width: 225px;
+    height: 450px;
+    text-align: center;
+    border: 3px solid #000;
+    background-color: #fff;
+    margin: auto;
+}
+
+.card-container {
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+    padding: 10px;
+    border: 3px solid #000;
+    background-color: #fff;
+}
+
+#greeting {
+    font-weight: bold;
+    font-size: 62px;
+    margin: auto;
+    padding: 10px;
+}
+
+#introduction {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.buttons-div {
+    margin-left: 40px;
+    margin-right: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: auto;
+    gap: 10px;
+}
+
+input {
+    border-radius: 0%;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+    width: 150px;
+    border: 2px solid #000;
+    border-radius: 25%;
+}
+
+.button.a {
+    background-color: RoyalBlue;
+    color: white;
+}
+
+.button.b {
+    background-color: white;
+    color: black;
+}
+
+.button:hover {
+
+    opacity: 0.5;
+}
+
+.pic-container {
+    width: 160px;
+    height: 160px;
+    top: 5px;
+    margin: auto;
+    margin-top: 22px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+  }
+
+.card-pic {
+    display: inline;
+    margin: auto;
+    height: 100%;
+    width: auto;
+  }
+
+hr.a {
+
+    color: #fff;
+    margin-top: 7px;
+}
+
+span.name {
+    font-weight: bold;
+}
+
+.ubc-logo {
+    display: inline;
+    margin: auto;
+    height: 35%;
+    width: auto;
+}
+
+hr.b {
+    width: 80px;
+    height: 5px;
+    margin: auto;
+    margin-top: 7px;
+    margin-bottom: 23px;
+    color: blue;
+}
+
+.quote {
+    width:100%;
+    padding-top: 40px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+}
+

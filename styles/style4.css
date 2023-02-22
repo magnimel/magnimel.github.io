@@ -1,0 +1,30 @@
+@import url(../styles.css);
+
+
+.content-summary {
+
+    background-color: #b3e6ff;
+    margin: 70px;
+    padding: 30px;
+}
+
+a.top-link {
+    font-size: 30px;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+.fav-content {
+    margin: 70px;
+
+}
+
+.card {
+    max-width: 540px;
+}
+
+.card-title {
+    font-weight: bold;
+}
