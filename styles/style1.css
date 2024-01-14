@@ -10,25 +10,13 @@
     gap: 5px;
 }
 
-.pic-container {
-    width: 160px;
-    height: 160px;
-    top: 5px;
+.card-id {
+    width: 225px;
+    height: 450px;
+    text-align: center;
+    border: 3px solid #000;
+    background-color: #fff;
     margin: auto;
-    margin-top: 22px;
-    position: relative;
-    overflow: hidden;
-    border-radius: 50%;
-  }
-  
-.card-pic {
-    display: inline;
-    height: 170%;
-    width: 140px;
-    position: absolute; 
-    top: 70%;
-    left: 50%;
-    transform: translate(-50%, -50%);
 }
 
 .card-container {
@@ -98,12 +86,16 @@ input {
     border-radius: 50%;
   }
 
-.card-pic {
+  .card-pic {
     display: inline;
-    margin: auto;
-    height: 100%;
-    width: auto;
-  }
+    height: 170%;
+    width: 140px;
+    position: absolute; 
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 
 hr.a {
 
@@ -138,4 +130,3 @@ hr.b {
     font-weight: bold;
     font-size: 30px;
 }
-
