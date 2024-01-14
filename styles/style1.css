@@ -10,6 +10,17 @@
     gap: 5px;
 }
 
+.pic-container {
+    width: 160px;
+    height: 160px;
+    top: 5px;
+    margin: auto;
+    margin-top: 22px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+  }
+  
 .card-pic {
     display: inline;
     height: 170%;
