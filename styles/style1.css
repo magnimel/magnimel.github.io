@@ -4,7 +4,8 @@
     margin: auto;
     background-color: #f2f2f2;
     padding: 35px;
-    display: flex;
+   /* display: flex;*/
+   display: float;
     flex-wrap: wrap;
     overflow: auto;
     gap: 5px;

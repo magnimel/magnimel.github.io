@@ -12,4 +12,3 @@ function showPage() {
 document.getElementById("e-message").onclick = function() {
     alert("Hello, Please provide a descriptive subject line and your preferred contact method so I can get in touch with you. Thank you very much.");
 }
-
