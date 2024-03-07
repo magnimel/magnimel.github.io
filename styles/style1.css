@@ -1,27 +1,29 @@
 @import url(../styles.css);
 
 .middle {
+
     margin: auto;
     background-color: #f2f2f2;
-    padding: 35px;
-   /* display: flex;*/
-   display: float;
+    padding: 50px;
+    display: inline-block;
     flex-wrap: wrap;
     overflow: auto;
     gap: 5px;
 }
 
 .card-id {
-    width: 225px;
-    height: 450px;
+    position: left;
+    padding: 20px;
     text-align: center;
     border: 3px solid #000;
     background-color: #fff;
+    height: auto;
+    width: auto;
     margin: auto;
 }
 
 .card-container {
-    max-width: 100%;
+    max-width: 70%;
     height: auto;
     margin: auto;
     padding: 10px;
@@ -56,9 +58,9 @@ input {
     text-decoration: none;
     font-weight: bold;
     padding: 10px;
-    width: 150px;
+    width: auto;
     border: 2px solid #000;
-    border-radius: 25%;
+    border-radius: 15%;
 }
 
 .button.a {
@@ -91,7 +93,7 @@ input {
     display: inline;
     height: 170%;
     width: 140px;
-    position: absolute; 
+    position: absolute;
     top: 70%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -112,7 +114,7 @@ span.name {
     display: inline;
     margin: auto;
     height: 35%;
-    width: auto;
+    width: 40%;
 }
 
 hr.b {
